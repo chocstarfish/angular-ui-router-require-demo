@@ -1,10 +1,23 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<div class="accordion" id="accordion-509515">
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-509515"
+               ui-sref="root.home">主页</a>
+        </div>
 
-</body>
-</html>
+    </div>
+    <div class="accordion-group">
+        <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-509515"
+               href="#accordion-element-334315">功能</a>
+        </div>
+        <div id="accordion-element-334315" class="accordion-body collapse">
+            <div class="accordion-inner">
+                <a href="#/functions/products">产品列表</a>
+            </div>
+            <div class="accordion-inner">
+                <a ui-sref="order"> 订单列表</a>
+            </div>
+        </div>
+    </div>
+</div>

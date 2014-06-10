@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+<h1>
+    {{$state.current.breadcrumb.text}}
+</h1>
+<ol breadcrumbs>
+    <li ng-repeat="breadcrumb in breadcrumbs">
+        <a ui-sref="{{breadcrumb.stateName}}">
+            {{breadcrumb.text}}
+        </a>
+        <span ng-hide="$last">
+            >
+        </span>
+    </li>
 
-</body>
-</html>
+</ol>

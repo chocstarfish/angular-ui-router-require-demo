@@ -4,7 +4,7 @@
 define(['app'], function (app) {
     'use strict';
 
-    app.register.controller('HeaderCtrl', ['$scope', function ($scope) {
+    app.register.controller('SidebarCtrl', ['$scope', function ($scope) {
 
     }]);
 

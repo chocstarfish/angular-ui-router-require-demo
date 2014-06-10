@@ -1,0 +1,23 @@
+.header {
+    background-color: #5e5e5e;
+    color: white;
+}
+
+.sidebar {
+    background-color: #9a9a98;
+    height: 100%;
+}
+
+.pageContentWrapper {
+    background-color: #eee;
+}
+
+.footer {
+    background-color: #5e5e5e;
+    text-align: center;
+    color: white;
+}
+
+.accordion-inner {
+    font-size: 11px;
+}

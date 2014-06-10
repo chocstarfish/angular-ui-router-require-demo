@@ -4,7 +4,7 @@
 define(['app'], function (app) {
     'use strict';
 
-    app.register.controller('HomeCtrl', ['$scope', function ($scope) {
+    app.register.controller('ProductsCtrl', ['$scope', function ($scope) {
 
     }]);
 
