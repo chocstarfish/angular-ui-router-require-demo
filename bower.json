@@ -1,0 +1,31 @@
+{
+  "name": "autos_admin_dashboard",
+  "version": "0.0.1",
+  "dependencies": {
+    "font-awesome": "~4.1.0",
+    "jquery.uniform": "~2.1.2",
+    "bootstrap": "~3.1.1",
+    "jquery-migrate": "~1.2.1",
+    "moment": "~2.6.0",
+    "jquery.pulsate": "*",
+    "angular": "~1.2.17",
+    "requirejs": "~2.1.14",
+    "angularAMD": "~0.1.1",
+    "angular-ui-router": "~0.2.10",
+    "bootstrap-switch": "~3.0.1",
+    "jquery.gritter": "*",
+    "bootstrap-daterangepicker": "~1.3.7",
+    "fullcalendar": "~2.0.0",
+    "jquery.easy-pie-chart": "~2.1.4",
+    "jquery-flot": "~0.8.3",
+    "bootstrap-hover-dropdown": "~2.0.8",
+    "jquery.slimscroll": "~1.3.1",
+    "blockui": "*",
+    "jquery.cookie": "~1.4.1",
+    "respond": "~1.4.2",
+    "excanvas": "*",
+    "angular-ui-router-breadcrumbs": "~0.0.2",
+    "angular-animate": "~1.2.17"
+  },
+  "devDependencies": {}
+}
