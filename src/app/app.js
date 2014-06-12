@@ -50,9 +50,9 @@ define([ 'angularAMD', 'bootstrap', 'angular-animate', 'angular-ui-router', 'ang
                         },
                         views: {
                             '@': angularAMD.route({
-                                templateUrl: 'app/home/home.html',
+                                templateUrl: 'app/root/home/home.html',
                                 controller: 'HomeCtrl',
-                                controllerUrl: 'home/homeCtrl'
+                                controllerUrl: 'root/home/homeCtrl'
                             })
                         }
                     })
@@ -73,9 +73,9 @@ define([ 'angularAMD', 'bootstrap', 'angular-animate', 'angular-ui-router', 'ang
                         },
                         views: {
                             '@': angularAMD.route({
-                                templateUrl: 'app/functions/products.html',
+                                templateUrl: 'app/root/functions/products.html',
                                 controller: 'ProductsCtrl',
-                                controllerUrl: 'functions/productsCtrl'
+                                controllerUrl: 'root/functions/productsCtrl'
                             })
                         }
                     }));
