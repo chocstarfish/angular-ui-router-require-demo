@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
+<head>
     <meta charset="UTF-8">
     <title>angular-ui-router-require-demo</title>
     <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -8,31 +8,21 @@
     <link href="styles/index.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
     <div class="row">
-        <div class="col-md-12 header" ui-view="header">
-
-        </div>
+        <div class="col-md-12 header" ui-view="header"></div>
     </div>
     <div class="row">
-        <div class="col-md-3 sidebar" ui-view="sidebar">
-
-        </div>
+        <div class="col-md-3 sidebar" ui-view="sidebar"></div>
         <div class="col-md-9 pageContentWrapper">
-            <div class="page-header" ui-view="pageHeader">
-
-            </div>
+            <div class="pageHeader" ui-view="pageHeader"></div>
             <div class="pageContent" ui-view></div>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-12 footer" ui-view="footer">
-
-        </div>
+        <div class="col-md-12 footer" ui-view="footer"></div>
     </div>
 </div>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/requirejs/require.js" data-main="app/config"></script>
 </body>
 </html>

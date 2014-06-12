@@ -4,11 +4,41 @@
 }
 
 .sidebar {
-    background-color: #9a9a98;
+    background-color: #000;
     height: 100%;
+    min-height: 619px;
+    color: white;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: underline;
+}
+
+.sidebar div div div div a {
+    padding-left: 20px;
 }
 
 .pageContentWrapper {
+    background-color: #c6cbc4;
+}
+
+.pageHeader ol {
+    padding: 0;
+    float: none;
+    margin-bottom: 15px;
+}
+
+.pageHeader ol li {
+    float: left;
+    margin-right: 10px;
+    list-style-type: none;
+}
+
+.pageContent {
+    margin-top: 50px;
+    min-height: 500px;
+
     background-color: #eee;
 }
 
@@ -20,4 +50,10 @@
 
 .accordion-inner {
     font-size: 11px;
+}
+
+.gridStyles {
+    width: 100px;
+    height: 500px;
+    border: 1 solid black;
 }

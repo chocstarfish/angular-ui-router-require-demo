@@ -1,14 +1,16 @@
 <h1>
     {{$state.current.breadcrumb.text}}
 </h1>
-<ol breadcrumbs>
-    <li ng-repeat="breadcrumb in breadcrumbs">
-        <a ui-sref="{{breadcrumb.stateName}}">
-            {{breadcrumb.text}}
-        </a>
+<div>
+    <ol breadcrumbs>
+        <li ng-repeat="breadcrumb in breadcrumbs">
+            <a ui-sref="{{breadcrumb.stateName}}">
+                {{breadcrumb.text}}
+            </a>
         <span ng-hide="$last">
             >
         </span>
-    </li>
+        </li>
 
-</ol>
+    </ol>
+</div>
