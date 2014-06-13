@@ -1,10 +1,10 @@
 /**
  * Created by NicolasZHANG on 14-6-10.
  */
-define(['../../app', 'ngload!ng-grid'], function (app) {
+define(['../../app'], function (app) {
     'use strict';
 
-    app.register.controller('ProductsCtrl', ['$scope', 'ngGrid', function ($scope) {
+    app.register.controller('ProductsCtrl', ['$scope', function ($scope) {
         $scope.data = [
             {
                 id: 1,

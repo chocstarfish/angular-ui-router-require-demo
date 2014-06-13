@@ -52,8 +52,13 @@
     font-size: 11px;
 }
 
-.gridStyles {
-    width: 100px;
+.clock {
+    height: 250px;
+    width: 250px;
+}
+
+.gridStyle {
+    width: 100%;
     height: 500px;
     border: 1 solid black;
 }
