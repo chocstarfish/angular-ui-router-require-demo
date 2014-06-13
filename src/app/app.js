@@ -2,12 +2,12 @@
  * Created by NicolasZHANG on 14-6-10.
  */
 
-define([ 'angularAMD', 'bootstrap', 'angular-animate', 'angular-ui-router', 'angular-ui-router-breadcrumbs', 'angular-simple-clock', 'ng-grid'],
+define([ 'angularAMD', 'bootstrap', 'angular-animate', 'angular-ui-router', 'angular-ui-router-breadcrumbs', 'angular-simple-clock'],
     function (angularAMD) {
         'use strict';
 
         var app = angular.module('myApp',
-            ['ui.router', 'ngAnimate', 'simpleClockModule', 'ngGrid', 'ui.router.breadcrumbs']);
+            ['ui.router', 'ngAnimate', 'simpleClockModule', 'ui.router.breadcrumbs']);
 
         app.config(['$stateProvider', '$urlRouterProvider',
             function ($stateProvider, $urlRouterProvider) {

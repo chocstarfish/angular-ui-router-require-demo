@@ -11,7 +11,7 @@ require.config({
         'angular': '../bower_components/angular/angular',
         'angular-animate': '../bower_components/angular-animate/angular-animate',
         'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router',
-        'angularAMD': '../bower_components/angularAMD/angularAMD',
+        'angularAMD': 'lib/angularAMD',
         'ngload': '../bower_components/angularAMD/ngload',
         'angular-ui-router-breadcrumbs': '../bower_components/angular-ui-router-breadcrumbs/dist/angular-ui-router-breadcrumbs',
         'ng-grid': '../bower_components/ng-grid/ng-grid-2.0.11.debug',
@@ -25,7 +25,7 @@ require.config({
         'angular-animate': ['angular'],
         'angular-ui-router': ['angular'],
         'angular-ui-router-breadcrumbs': ['angular-ui-router'],
-        'ng-grid': ['angular'],
+        'ng-grid': ['angular','jquery'],
         'angular-simple-clock': ['angular']
     },
     deps: ['app']
